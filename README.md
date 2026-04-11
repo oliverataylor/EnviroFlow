@@ -97,7 +97,7 @@ Reducing unnecessary prompt length:
 
 ---
 
-## Step 1 — Download the Project
+## Step 1: Download the Project
 Click the green **Code** button, then click **Download ZIP**.
 
 After downloading:
@@ -107,7 +107,7 @@ After downloading:
 
 ---
 
-## Step 2 — Open Chrome Extensions
+## Step 2: Open Chrome Extensions
 Go to:
 
 chrome://extensions/
@@ -117,7 +117,7 @@ Turn on:
 
 ---
 
-## Step 3 — Load EcoFlow
+## Step 3: Load EcoFlow
 Click **Load unpacked**, then:
 
 - Select the extracted EcoFlow folder  
@@ -127,7 +127,7 @@ EcoFlow will now appear in your extensions list.
 
 ---
 
-## Step 4 — Use EcoFlow
+## Step 4: Use EcoFlow
 1. Open any AI website (like ChatGPT)
 2. Click the EcoFlow extension icon
 3. Paste or type a prompt
