@@ -122,6 +122,7 @@ Click **Load unpacked**, then:
 
 - Select the extracted EcoFlow folder  
 - Click **Select Folder**
+- Make sure you click the inner folder (not the outer)
 
 EcoFlow will now appear in your extensions list.
 
