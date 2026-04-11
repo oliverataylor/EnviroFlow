@@ -49,16 +49,7 @@ function optimizePrompt(text) {
     cleanedText = cleanedText.replace(pattern, " ");
   });
 
-  const words = cleanedText.trim().split(/\s+/).filter(Boolean);
-  const uniqueWords = [];
-
-function optimizePrompt(text) {
-  let cleanedText = String(text || "");
-
-  FILLER_PATTERNS.forEach((pattern) => {
-    cleanedText = cleanedText.replace(pattern, " ");
-  });
-
+  // Returns the text with extra spaces removed, allowing duplicate words
   return cleanedText.replace(/\s+/g, " ").trim();
 }
 
