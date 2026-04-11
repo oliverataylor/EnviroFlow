@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoFlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="popup">
+    <header class="header">
+      <div>
+        <p class="eyebrow">Green Prompt Optimizer</p>
+        <h1>EcoFlow</h1>
+        <p class="subtitle">Real-time prompt cleanup for AI tools</p>
+      </div>
+      <span id="currentSite" class="site-badge">No site</span>
+    </header>
+
+    <section class="card stats">
+      <div class="stat">
+        <span class="label">Tokens Saved</span>
+        <strong id="tokensSaved">0</strong>
+      </div>
+      <div class="stat">
+        <span class="label">Carbon Saved</span>
+        <strong id="carbonSaved">0 g</strong>
+      </div>
+      <div class="stat">
+        <span class="label">Energy Saved</span>
+        <strong id="energySaved">0 Wh</strong>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-title">
+        <h2>Efficiency Score</h2>
+        <strong id="reductionPercent">0%</strong>
+      </div>
+      <div class="meter-track">
+        <div id="efficiencyMeter" class="meter-fill"></div>
+      </div>
+      <p class="helper-text">Based on prompt reduction after optimization.</p>
+    </section>
+
+    <section class="card">
+      <div class="section-title">
+        <h2>Complexity Meter</h2>
+        <strong id="complexityLabel">Low</strong>
+      </div>
+      <div class="complexity-grid">
+        <div class="complexity-block">
+          <span class="label">Before</span>
+          <strong id="originalComplexity">0</strong>
+        </div>
+        <div class="complexity-block">
+          <span class="label">After</span>
+          <strong id="optimizedComplexity">0</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-title">
+        <h2>Before / After</h2>
+        <strong id="tokenComparison">0 -> 0 tokens</strong>
+      </div>
+      <div class="prompt-grid">
+        <div class="prompt-panel">
+          <span class="label">Original Prompt</span>
+          <p id="originalPrompt" class="prompt-text">No prompt captured yet.</p>
+        </div>
+        <div class="prompt-panel optimized-panel">
+          <span class="label">Optimized Prompt</span>
+          <p id="optimizedPrompt" class="prompt-text">No optimized prompt yet.</p>
+        </div>
+      </div>
+      <button id="applyPromptButton" class="apply-button" type="button">Apply Optimized Prompt</button>
+    </section>
+
+    <section class="card">
+      <h2>Supported Sites</h2>
+      <p id="supportedSites" class="prompt-text">
+        All websites, plus ChatGPT, Claude, Gemini, Grok, Copilot, Perplexity, Poe, Character.AI, and You.com
+      </p>
+    </section>
+  </main>
+
+  <script src="optimizer.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
