@@ -93,9 +93,49 @@ Reducing unnecessary prompt length:
 
 ---
 
-# Installation
+# EcoFlow Installation Guide
 
-1. Clone this repository:
+---
 
-```bash
-git clone https://github.com/oliverataylor/EcoFlow.git
+## Step 1 — Download the Project
+Click the green **Code** button, then click **Download ZIP**.
+
+After downloading:
+- Right-click the ZIP file  
+- Click **Extract All**  
+- Open the extracted folder  
+
+---
+
+## Step 2 — Open Chrome Extensions
+Go to:
+
+chrome://extensions/
+
+Turn on:
+- Developer Mode (top right corner)
+
+---
+
+## Step 3 — Load EcoFlow
+Click **Load unpacked**, then:
+
+- Select the extracted EcoFlow folder  
+- Click **Select Folder**
+
+EcoFlow will now appear in your extensions list.
+
+---
+
+## Step 4 — Use EcoFlow
+1. Open any AI website (like ChatGPT)
+2. Click the EcoFlow extension icon
+3. Paste or type a prompt
+4. Click **Optimize**
+
+EcoFlow will:
+- Rewrite your prompt  
+- Show token savings  
+- Estimate environmental impact  
+
+---
