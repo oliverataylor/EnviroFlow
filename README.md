@@ -22,8 +22,8 @@ This reduces token usage and speeds up AI responses.
 ## Before vs After Comparison
 Shows:
 
-Original Prompt  
-Optimized Prompt  
+- Original Prompt  
+- Optimized Prompt  
 
 This helps users visually understand how their prompts are improved.
 
