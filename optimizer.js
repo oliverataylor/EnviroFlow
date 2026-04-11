@@ -52,18 +52,14 @@ function optimizePrompt(text) {
   const words = cleanedText.trim().split(/\s+/).filter(Boolean);
   const uniqueWords = [];
 
-  words.forEach((word) => {
-    const normalizedWord = word.toLowerCase();
-    const isDuplicate = uniqueWords.some(
-      (existingWord) => existingWord.toLowerCase() === normalizedWord
-    );
+function optimizePrompt(text) {
+  let cleanedText = String(text || "");
 
-    if (!isDuplicate) {
-      uniqueWords.push(word);
-    }
+  FILLER_PATTERNS.forEach((pattern) => {
+    cleanedText = cleanedText.replace(pattern, " ");
   });
 
-  return uniqueWords.join(" ").replace(/\s+/g, " ").trim();
+  return cleanedText.replace(/\s+/g, " ").trim();
 }
 
 function countTokens(text) {
