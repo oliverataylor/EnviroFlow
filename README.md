@@ -42,7 +42,7 @@ Shorter prompts require fewer tokens, reducing computational demand.
 ## Carbon Impact Estimation
 EcoFlow estimates environmental savings using:
 
-- Estimated CO₂ saved
+- Estimated CO2 saved
 - Estimated energy saved (Wh)
 
 These estimates help users understand the environmental effects of AI usage.
