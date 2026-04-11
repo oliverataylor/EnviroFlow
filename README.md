@@ -98,4 +98,4 @@ Reducing unnecessary prompt length:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/oliverataylor/EcoFlow.git# EcoFlow
+git clone https://github.com/oliverataylor/EcoFlow.git
