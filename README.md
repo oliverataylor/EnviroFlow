@@ -1,8 +1,8 @@
-# EcoFlow
+# EnviroFlow
 
-EcoFlow is a lightweight browser extension that automatically optimizes AI prompts to reduce unnecessary words, save tokens, and estimate environmental impact, such as energy and carbon usage.
+EnviroFlow is a lightweight browser extension that automatically optimizes AI prompts to reduce unnecessary words, save tokens, and estimate environmental impact, such as energy and carbon usage.
 
-As AI usage increases worldwide, the energy required to process prompts continues to grow. EcoFlow helps reduce digital waste by making prompts shorter, cleaner, and more efficient.
+As AI usage increases worldwide, the energy required to process prompts continues to grow. EnviroFlow helps reduce digital waste by making prompts shorter, cleaner, and more efficient.
 
 ---
 
@@ -30,7 +30,7 @@ This helps users visually understand how their prompts are improved.
 ---
 
 ## Token Saver
-EcoFlow estimates:
+EnviroFlow estimates:
 
 - Tokens saved per prompt
 - Total tokens saved over time
@@ -40,7 +40,7 @@ Shorter prompts require fewer tokens, reducing computational demand.
 ---
 
 ## Carbon Impact Estimation
-EcoFlow estimates environmental savings using:
+EnviroFlow estimates environmental savings using:
 
 - Estimated CO2 saved
 - Estimated energy saved (Wh)
@@ -50,7 +50,7 @@ These estimates help users understand the environmental effects of AI usage.
 ---
 
 ## Green Suggestions (Original Feature)
-EcoFlow generates suggestions like:
+EnviroFlow generates suggestions like:
 
 - "Try shortening instructions."
 - "Remove unnecessary politeness words."
@@ -63,7 +63,7 @@ This feature encourages sustainable prompt writing habits.
 # How It Works
 
 1. User types a prompt into an AI text box.
-2. EcoFlow analyzes the prompt.
+2. EnviroFlow analyzes the prompt.
 3. Extra filler words are removed.
 4. The optimized prompt replaces the original.
 5. Savings are calculated and displayed.
@@ -93,7 +93,7 @@ Reducing unnecessary prompt length:
 
 ---
 
-# EcoFlow Installation Guide
+# EnviroFlow Installation Guide
 
 ---
 
@@ -117,24 +117,24 @@ Turn on:
 
 ---
 
-## Step 3: Load EcoFlow
+## Step 3: Load EnviroFlow
 Click **Load unpacked**, then:
 
-- Select the extracted EcoFlow folder  
+- Select the extracted EnviroFlow folder  
 - Click **Select Folder**
 - Make sure you select the inner folder (double click)
 
-EcoFlow will now appear in your extensions list.
+EnviroFlow will now appear in your extensions list.
 
 ---
 
-## Step 4: Use EcoFlow
+## Step 4: Use EnviroFlow
 1. Open any AI website (like ChatGPT)
-2. Click the EcoFlow extension icon
+2. Click the EnviroFlow extension icon
 3. Paste or type a prompt
 4. Click **Optimize**
 
-EcoFlow will:
+EnviroFlow will:
 - Rewrite your prompt  
 - Show token savings  
 - Estimate environmental impact  
