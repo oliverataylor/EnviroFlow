@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "EcoFlow",
+  "name": "EnviroFlow",
   "version": "1.0.0",
   "description": "A Chrome extension that optimizes AI prompts to reduce carbon, energy, and token usage.",
   "permissions": [
