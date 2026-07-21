@@ -1,5 +1,7 @@
 # EnviroFlow
 
+Made for MC RaptorHacks 2026
+
 EnviroFlow is a lightweight browser extension that automatically optimizes AI prompts to reduce unnecessary words, save tokens, and estimate environmental impact, such as energy and carbon usage.
 
 As AI usage increases worldwide, the energy required to process prompts continues to grow. EnviroFlow helps reduce digital waste by making prompts shorter, cleaner, and more efficient.
